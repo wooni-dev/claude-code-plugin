@@ -48,6 +48,15 @@ npm run crawl
    요청 간 300ms 딜레이를 둬 서버 부하를 줄입니다.
 3. **결과 저장** — 기존 데이터와 병합 후 `plugins.json`으로 저장합니다.
 
+## Claude Code 스킬
+
+`.claude/skills/update-plugins/` 에 Claude Code 전용 스킬이 포함되어 있습니다.  
+저장소를 클론한 후 Claude Code에서 `/update-plugins` 명령어를 사용하면 크롤링부터 결과 보고까지 자동으로 실행됩니다.
+
+```
+/update-plugins
+```
+
 ## 요구사항
 
 - Node.js 18 이상 (내장 `fetch` 사용)
