@@ -1,0 +1,11 @@
+{
+  "name": "claude-code-plugin-crawler",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "crawl": "node crawl.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
